@@ -29,7 +29,7 @@ class TodoApp:
         # Title
         tk.Label(
             self.root,
-            text="📝 My To-Do List",
+            text=" My To-Do List",
             font=("Segoe UI", 20, "bold"),
             bg=BG_COLOR,
             fg=TEXT_COLOR
@@ -134,3 +134,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     TodoApp(root)
     root.mainloop()
+
